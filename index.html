@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>App propinas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/calculator-solid.svg" type="image/x-icon">
+    <script src="./js/codigo.js"></script>
+</head>
+
+<body>
+    <h2>Creador de triangulos</h2>
+    <form onsubmit="triangulo(); return false">
+        Escribe un numero para formar un triangulo con el nuero de filas que quieras<br>
+        <input type="number" name="num" id="num" placeholder="Escribe un numero">
+        <input type="submit" value="Calcular" name="submit">
+    </form>
+    <h3 id='res'></h3>
+</body>
+
+</html>
